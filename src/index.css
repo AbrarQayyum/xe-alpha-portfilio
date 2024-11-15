@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+
+:root {
+  --primary-bg: rgb(27, 20, 41);
+  --secondary-bg: rgb(20, 15, 35);
+  --font-family: "Raleway", Arial, sans-serif; /* Added fallbacks */
+}
+
+body {
+  margin: 0;
+  padding: 0; /* Optional: add padding if needed */
+  font-family: var(--font-family);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(to left, var(--primary-bg), var(--secondary-bg));
+  color: #ffffff; /* Set a default text color */
+}
